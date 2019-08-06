@@ -32,7 +32,7 @@
         },
         "triggers": [
           {
-            "resourceName": "apigusEast1TestAPItestget",
+            "resourceName": "apigusEast1TestAPIedittestget",
             "config": {}
           }
         ]
@@ -76,6 +76,25 @@
           "stageDeploymentId": "qtlfty",
           "mode": 1
         }
+      },
+      "apigusEast1TestAPIedittestget": {
+        "name": "apigusEast1TestAPIedittestget",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 0,
+          "apiName": "TestAPIedit",
+          "endpointType": "EDGE",
+          "resourceMode": 0,
+          "resourceName": "test",
+          "resourcePath": "/test",
+          "restMethod": "GET",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "test",
+          "mode": 0
+        }
       }
     },
     "customTemplate": {
@@ -103,7 +122,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1565093183605
+    "lastSave": 1565093225685
   },
   "VCS_STATE": {
     "provider": "GitHub",
